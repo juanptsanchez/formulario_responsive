@@ -23,7 +23,7 @@ Cada input es requerido y está debidamente referenciado para cada una de sus fu
 
 ### Links
 
-- URL del sitio en vivo: [Netlify]()
+- URL del sitio en vivo: [Netlify](https://formulario-responsive.netlify.app/)
 
 ### Construido con
 
