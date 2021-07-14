@@ -1,0 +1,134 @@
+/* ========================================= 
+VARIABLES FONTS / COLORS
+=========================================== */
+:root {
+    /* FUENTES */
+    --bodyFont: 'Open Sans', sans-serif;
+
+    /* COLORES */
+    --bodyBackground: #151F33;
+    --formBackground: #1F2D4B;
+    --pink: #E36280;
+}
+
+/* ========================================= 
+BOX-SIZING / FONT SIZE
+=========================================== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* ================================================
+GLOBAL
+================================================ */
+body {
+    font-family: var(--bodyFont);
+    background-color: var(--bodyBackground);
+    color: #fff;
+    font-size: 1.3rem;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* ================================================
+FORMULARIO
+================================================ */
+.form__general {
+    margin: 5rem auto;
+    background-color: var(--formBackground);
+    border-radius: 1rem;
+}
+
+/* HEADER */
+.form__header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2.5rem;
+}
+.form__header p a {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+/* FORMULARIO */
+.form__content {
+    margin: 0 auto;
+    width: 70%;
+}
+.form__content h1, h2 {
+    text-align: center;
+}
+.form__content h1 {
+    font-size: 2.7rem;
+    margin-top: 0;
+}
+.form__content h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2.3rem;
+    margin: 0 0 2rem 0;
+}
+.form__info label {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.form__info input {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: var(--formBackground);
+    border: 1px solid #495E8D;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    color: #fff;
+}
+.form__info input:focus {
+    outline-style: ridge;
+    outline-color: #185ADB;
+    border-radius: .5rem;
+}
+.form__info .btn {
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+/* TERMINOS Y CONDICIONES */
+.terms {
+    background-color: var(--bodyBackground);
+    margin: 2rem 3rem;
+    padding: 1rem 4rem;
+    display: inline-block;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #9ba1ad;
+}
+.terms span {
+    color: var(--pink);
+}
+
+/* ================================================
+FOOTER
+================================================ */
+.site__footer p {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.site__footer p a {
+    text-decoration: none;
+    color: var(--pink);
+}
+.site__footer p a i {
+    font-size: 1.5rem;
+}
