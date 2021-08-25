@@ -39,4 +39,4 @@ Cada input es requerido y está debidamente referenciado para cada una de sus fu
 
 ## Autor
 
-- Website - [Github](https://github.com/juanptsanchez)
+- Juan Pablo Torres Sánchez - [Github](https://github.com/juanptsanchez)
